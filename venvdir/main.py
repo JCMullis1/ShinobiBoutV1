@@ -10,11 +10,15 @@ class Account(BaseModel):
     email: str
     password: str
 
-@app.post("/createaccount")
-def accountreader(payload: dict = Body(...)):
-    print(payload)
-    return {"new_account": f"username {payload['username']} email: {payload['email']} password {payload['password']}"}
+my_accounts = [{"username": "username of account 1", "email": "email of account 1", "password": "password of account 1", "id": 1}]
 
-@app.get("/Accounts/ID")
-def accountreader():
-    return {"username": username, "email": email, "password": password}
+@app.post("/accounts")
+def accountreader(new_account: Account):
+    print(new_account)
+    my_accounts.append(new_account)
+    print(my_accounts)
+    return {"data": new_account}
+
+@app.get("/accounts")
+def get_accounts():
+    return {"data": my_accounts}
