@@ -1,0 +1,21 @@
+h1 {
+    font-style: italic;
+    font-weight: 300;
+    font-family: serif;
+    color: red;
+    margin-top: 100px;
+    
+}
+
+h2 {
+    color: blue;
+    margin-top: 100px
+}
+
+button {
+    color: magenta;
+    height: 100px;
+    width: 200px;
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
