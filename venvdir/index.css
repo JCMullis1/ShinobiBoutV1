@@ -1,21 +1,52 @@
+body {
+    background-image: url("images/final_battlevalley7.png");
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div {
+    width: 250px;
+    height: fit-content;
+    margin: auto;
+    background-attachment: fixed;
+}
+
 h1 {
-    font-style: italic;
+    font-size: 50px;
     font-weight: 300;
     font-family: serif;
-    color: red;
+    color: lightblue;
     margin-top: 100px;
-    
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 h2 {
-    color: blue;
-    margin-top: 100px
+    color: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 10px;
 }
 
 button {
-    color: magenta;
-    height: 100px;
-    width: 200px;
-    font-size: 200%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 126, 126, 0.698);
+    color: lightblue;
+    border: 1px solid rgba(255, 126, 126, 0.698);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    font-size: 35px;
+    font-weight: bolder;
 }
+    
